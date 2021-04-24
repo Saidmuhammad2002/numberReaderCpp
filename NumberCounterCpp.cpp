@@ -72,5 +72,4 @@ int n;
 cin>>n;
 	cout<<endl;
 	said(n);
-	cout<<lengthof(int);
 }
