@@ -60,5 +60,5 @@ function numberReaderJs(son){let s=0,son1=son,son2=son;
     numberReaderJs(son2);
      }
 }
-let a=243463526476527463;
+let a=2434635264765274;
 numberReaderJs(a);
