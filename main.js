@@ -1,4 +1,4 @@
-function said(son){let s=0,son1=son,son2=son;
+function numberReaderJs(son){let s=0,son1=son,son2=son;
     while(son>0){
   son=Math.floor(son/10);
   s++;
@@ -57,8 +57,8 @@ function said(son){let s=0,son1=son,son2=son;
  }let z=Math.pow(10,s-1);
    if(son1>0){ 
     son2=son2%z;
-    said(son2);
+    numberReaderJs(son2);
      }
 }
 let a=243463526476527463;
-said(a);
+numberReaderJs(a);
